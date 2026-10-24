@@ -1,0 +1,54 @@
+{
+  "name": "mark-zuckerberg-ai-mcp",
+  "version": "1.0.0",
+  "description": "Mark Zuckerberg AI Model Context Protocol Server for Autonomous Open-Weights Foundation Models, Llama Global Decentralization, Social Intelligence Fabric & Metaverse Immersion Protocol",
+  "tools": [
+    {
+      "name": "audit_open_weights_inference",
+      "description": "Benchmark open-weights model quantization, inference latency across consumer edge hardware, and open fine-tuning adaptability",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "model_variant": {
+            "type": "string"
+          },
+          "quantization_format": {
+            "type": "string"
+          },
+          "edge_hardware": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "model_variant"
+        ]
+      }
+    },
+    {
+      "name": "disburse_open_weights_grant",
+      "description": "Trigger automated micro-escrow payouts for open-source AI researchers, community fine-tuning benchmarks, and on-device private inference libraries",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
